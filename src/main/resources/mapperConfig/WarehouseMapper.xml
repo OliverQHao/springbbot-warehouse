@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.liugang.warehousemangerment.mapper.space.WarehouseMapper">
+    <resultMap id="WarehousesMap" type="com.liugang.warehousemangerment.entity.space.Warehouse">
+        <id column="warehouseID" property="warehouseID"></id>
+        <result column="warehouseType" property="warehouseType"></result>
+        <result column="warehouseName" property="warehouseName"></result>
+        <result column="position" property="position"></result>
+        <association property="manager" column="managerID"
+                     select="com.liugang.warehousemangerment.mapper.person.ManagerMapper.getManagerById"
+                     javaType="com.liugang.warehousemangerment.entity.person.Manager">
+            <id column="managerId" property="manager.managerId"></id>
+            <id column="managerName" property="manager.managerName"></id>
+        </association>
+    </resultMap>
+    <!--public List<Warehouse> getAllWarehouses()-->
+    <select id="getAllWarehouses" resultMap="WarehousesMap">
+        select * from warehouse
+    </select>
+
+    <!--public Warehouse getWarehouseById(String id)-->
+    <select id="getWarehouseById" resultMap="WarehousesMap">
+        select * from warehouse where warehouseID=#{id}
+    </select>
+
+</mapper>

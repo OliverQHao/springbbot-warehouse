@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h2>login页面</h2>
+    <!--默认post请求形式的/login代表登录，需要带用户名和密码，用户名是username,密码是password-->
+    <form th:action="@{/login}" method="post">
+        <label>用户名</label>
+        <input type="text" name="username"><br>
+        <label>密码</label>
+        <input type="password" name="password"><br>
+        <input type="submit" value="登录">
+    </form>
+</body>
+</html>
