@@ -12,6 +12,7 @@ import java.util.List;
  * @data 2018 - 12
  * @packageName com.liugang.warehousemangerment.service.person
  * @projectName warehouse-mangerment
+ * 对管理员接口的实现
  */
 @Service(value = "managerService")
 public class ManagerServiceImp implements ManagerService {

@@ -2,6 +2,7 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--管理员的sql映射配置文件-->
 <mapper namespace="com.liugang.warehousemangerment.mapper.person.ManagerMapper">
     <!--public Manager getManagerById(Integer id);-->
     <select id="getManagerById" resultType="com.liugang.warehousemangerment.entity.person.Manager">

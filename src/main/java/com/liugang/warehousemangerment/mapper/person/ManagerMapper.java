@@ -12,6 +12,7 @@ import java.util.List;
  * @data 2018 - 12
  * @packageName com.liugang.warehousemangerment.mapper.person
  * @projectName warehouse-mangerment
+ * 管理员的mapper映射的mapper类
  */
 @Mapper
 @Lazy

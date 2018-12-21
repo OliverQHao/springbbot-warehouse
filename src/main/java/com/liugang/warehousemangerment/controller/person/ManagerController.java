@@ -15,6 +15,7 @@ import java.util.List;
  * @data 2018 - 12
  * @packageName com.liugang.warehousemangerment.controller.person
  * @projectName warehouse-managerment
+ * 处理管理员的接口
  */
 @Controller
 @RequestMapping(value = "/manager")

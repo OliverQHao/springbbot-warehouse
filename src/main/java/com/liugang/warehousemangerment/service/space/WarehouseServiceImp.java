@@ -12,6 +12,7 @@ import java.util.List;
  * @data 2018 - 12
  * @packageName com.liugang.warehousemangerment.service.space
  * @projectName warehouse-mangerment
+ * 库区的接口的实现
  */
 @Service(value = "warehouseService")
 public class WarehouseServiceImp implements WarehouseService {

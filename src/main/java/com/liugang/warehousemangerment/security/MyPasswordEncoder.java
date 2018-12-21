@@ -7,6 +7,7 @@ import org.springframework.security.crypto.password.PasswordEncoder;
  * @data 2018 - 12
  * @packageName com.liugang.warehousemangerment.security
  * @projectName warehouse-mangerment
+ * 对安全的一个加密
  */
 public class MyPasswordEncoder implements PasswordEncoder {
     @Override

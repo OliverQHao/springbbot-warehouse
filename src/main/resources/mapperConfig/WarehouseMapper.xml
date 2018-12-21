@@ -2,6 +2,7 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--对库区的sql映射文件-->
 <mapper namespace="com.liugang.warehousemangerment.mapper.space.WarehouseMapper">
     <resultMap id="WarehousesMap" type="com.liugang.warehousemangerment.entity.space.Warehouse">
         <id column="warehouseID" property="warehouseID"></id>

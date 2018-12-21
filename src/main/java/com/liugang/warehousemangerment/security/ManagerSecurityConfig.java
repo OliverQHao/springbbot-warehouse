@@ -16,11 +16,13 @@ import java.util.List;
  * @data 2018 - 12
  * @packageName com.liugang.warehousemangerment.security
  * @projectName warehouse-mangerment
+ * 定义授权的规则和定义认证的规则
  */
 @EnableWebSecurity
 public class ManagerSecurityConfig extends WebSecurityConfigurerAdapter {
     /**
      * 定义授权的规则
+     * 定义哪些角色可以访问哪些页面
      * @param http
      * @throws Exception
      */
@@ -38,11 +40,13 @@ public class ManagerSecurityConfig extends WebSecurityConfigurerAdapter {
 
     /**
      * 定义认证的规则
+     * 给哪些人定义哪些角色
      * @param auth
      * @throws Exception
      */
     @Resource(name = "managerService")
     private ManagerService managerService;
+
     @Override
     protected void configure(AuthenticationManagerBuilder auth) throws Exception {
         //下面给所有的管理员给权限(从数据库中获取数据)

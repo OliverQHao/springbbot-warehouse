@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
  * @data 2018 - 12
  * @packageName com.liugang.warehousemangerment.controller.main
  * @projectName warehouse-mangerment
+ * 主程序的接口，为了处理主程序的做一些请求，如“/”等
  */
 @Controller
 public class MainController {

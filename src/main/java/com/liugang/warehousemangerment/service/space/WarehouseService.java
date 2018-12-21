@@ -9,6 +9,7 @@ import java.util.List;
  * @data 2018 - 12
  * @packageName com.liugang.warehousemangerment.service.space
  * @projectName warehouse-mangerment
+ * 对库区的接口
  */
 public interface WarehouseService {
 

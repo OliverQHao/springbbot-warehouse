@@ -9,7 +9,7 @@ import java.io.Serializable;
  * @data 2018 - 12
  * @packageName com.liugang.warehousemangerment.entity.space
  * @projectName warehouse-mangerment
- * 库区
+ * 库区的实体类
  */
 public class Warehouse {
     private String warehouseID;//库区号

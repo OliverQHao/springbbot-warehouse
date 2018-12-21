@@ -15,6 +15,7 @@ import java.util.List;
  * @data 2018 - 12
  * @packageName com.liugang.warehousemangerment.controller.space
  * @projectName warehouse-mangerment
+ * 处理库区的接口
  */
 @Controller
 @RequestMapping(value = "/warehouse")

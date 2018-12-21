@@ -7,7 +7,7 @@ import java.io.Serializable;
  * @data 2018 - 12
  * @packageName com.liugang.warehousemangerment.entity.person
  * @projectName warehouse-mangerment
- * 管理员的实体
+ * 管理员的实体类
  */
 public class Manager {
     private Integer managerId;

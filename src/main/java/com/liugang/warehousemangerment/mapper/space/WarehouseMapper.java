@@ -11,6 +11,7 @@ import java.util.List;
  * @data 2018 - 12
  * @packageName com.liugang.warehousemangerment.mapper.materal
  * @projectName warehouse-mangerment
+ * 库区的映射的mapper类
  */
 @Mapper
 @Lazy

@@ -9,6 +9,7 @@ import java.util.List;
  * @data 2018 - 12
  * @packageName com.liugang.warehousemangerment.service.person
  * @projectName warehouse-mangerment
+ * 对管理员的Service
  */
 public interface ManagerService {
 
